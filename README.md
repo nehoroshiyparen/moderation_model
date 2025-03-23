@@ -28,3 +28,6 @@ kaggle==1.5.12
 4. Если у вас еще не установлен kagglehub, установите его:
 
 pip install kagglehub
+
+5. Еще нудно вручную установить датасет от RuToxic в папку dataset/raw
+   вот ссылка на датасет: https://github.com/s-nlp/rudetoxifier/blob/main/data/train/ru_toxic_dataset.csv
