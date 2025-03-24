@@ -1,8 +1,7 @@
 Установка зависимостей
 
 1. Клонируйте репозиторий:
-git clone https://your-repository-url.git
-cd your-repository
+git clone https://your-repository-url.git](https://github.com/nehoroshiyparen/moderation_model)
 
 2. Установите зависимости с помощью pip:
 
@@ -16,18 +15,59 @@ venv\Scripts\activate  # Для Windows
 
 pip install -r requirements.txt
 
-В файле requirements.txt должны быть следующие зависимости:
+В файле requirements.txt должны быть следующие зависимости: ( сорян что не могу создать его сам. хуйня какая то происходит просто хд)))
 
-transformers==4.24.0
-torch==1.12.0
-datasets==2.10.1
-pandas==1.4.2
-scikit-learn==1.0.2
-kaggle==1.5.12
+accelerate==1.5.2
+aiohappyeyeballs==2.6.1
+aiohttp==3.11.14
+aiosignal==1.3.2
+attrs==25.3.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
+datasets==3.4.1
+dill==0.3.8
+filelock==3.18.0
+frozenlist==1.5.0
+fsspec==2024.12.0
+huggingface-hub==0.29.3
+idna==3.10
+Jinja2==3.1.6
+joblib==1.4.2
+kagglehub==0.3.10
+MarkupSafe==3.0.2
+mpmath==1.3.0
+multidict==6.2.0
+multiprocess==0.70.16
+networkx==3.4.2
+numpy==1.26.4
+packaging==24.2
+pandas==2.2.3
+pillow==11.1.0
+propcache==0.3.0
+psutil==7.0.0
+pyarrow==19.0.1
+python-dateutil==2.9.0.post0
+pytz==2025.1
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+safetensors==0.5.3
+scikit-learn==1.6.1
+scipy==1.15.2
+six==1.17.0
+sympy==1.13.3
+threadpoolctl==3.6.0
+tokenizers==0.21.1
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
+tqdm==4.67.1
+transformers==4.49.0
+typing_extensions==4.12.2
+tzdata==2025.1
+urllib3==2.3.0
+xxhash==3.5.0
+yarl==1.18.3
 
-4. Если у вас еще не установлен kagglehub, установите его:
-
-pip install kagglehub
-
-5. Еще нудно вручную установить датасет от RuToxic в папку dataset/raw
-   вот ссылка на датасет: https://github.com/s-nlp/rudetoxifier/blob/main/data/train/ru_toxic_dataset.csv
+4. Ну и запустить файл train.py для обучения модели.
+5. Кайф ловить
